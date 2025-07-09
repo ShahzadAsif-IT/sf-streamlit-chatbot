@@ -139,3 +139,7 @@ You can find these secrets by logging into Snowflake.  Click your logged-in user
 Here is an example instance of this application.  The chatbot is using Snowflake Arctic LLM. When prompted to explain some terms of Snowflake, it used the RAG documents that are loaded in DOCUMENT_VECTORS table and responds accordingly.
 
 ![alt text](image.png)
+
+We can search the existing embedding in DOCUMENT_VECTORS using the **Vector Search Preview** page from side navigation. Here, we search for the any matching for *boss*
+
+![alt text](image-1.png)
