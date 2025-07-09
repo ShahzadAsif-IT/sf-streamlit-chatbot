@@ -1,0 +1,5 @@
+CREATE OR REPLACE TABLE DOCUMENT_VECTORS (
+    doc_id STRING,
+    doc_text STRING,
+    embedding VECTOR(FLOAT, 768)
+);

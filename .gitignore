@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment
+.env
+*.env
+
+# VSCode
+.vscode/
+
+# Mac/Linux/Windows
+.DS_Store
+Thumbs.db
